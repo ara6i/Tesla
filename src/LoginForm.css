@@ -1,0 +1,26 @@
+.loginForm {
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+input {
+    background-color: rgba(128, 128, 128, 0.105);
+    display: block;
+    border-radius: 25px;
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.submitBtn {
+    width : 300px;
+    height: 40px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgba(70, 70, 242, 0.996);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
